@@ -1,0 +1,12 @@
+source https://api.nuget.org/v3/index.json
+framework: net472
+storage: none
+generate_load_scripts: true
+
+nuget canopy
+nuget FSharp.Data
+nuget Selenium.WebDriver.ChromeDriver
+github lefthandedgoat/prunner src/prunner/types.fs
+github lefthandedgoat/prunner src/prunner/printer.fs
+github lefthandedgoat/prunner src/prunner/test.fs
+github lefthandedgoat/prunner src/prunner/actors.fs

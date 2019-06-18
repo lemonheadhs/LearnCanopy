@@ -1,0 +1,8 @@
+.paket/load/
+.paket/*
+!.paket/paket.exe
+paket-files/
+**/*/bin/
+**/*/obj/
+debug.log
+

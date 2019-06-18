@@ -1,0 +1,21 @@
+GENERATE-LOAD-SCRIPTS: ON
+STORAGE: NONE
+RESTRICTION: == net472
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    canopy (2.1)
+      FSharp.Core (>= 4.3.4)
+      Selenium.WebDriver (>= 3.14)
+      System.Drawing.Common (>= 4.5)
+    FSharp.Core (4.6.2)
+    FSharp.Data (3.1.1)
+      FSharp.Core (>= 4.0.0.1)
+    Selenium.WebDriver (3.141)
+    Selenium.WebDriver.ChromeDriver (75.0.3770.90)
+    System.Drawing.Common (4.5.1)
+GITHUB
+  remote: lefthandedgoat/prunner
+    src/prunner/actors.fs (05f867efe618ed140b610c6b7093f073c7de46ee)
+    src/prunner/printer.fs (05f867efe618ed140b610c6b7093f073c7de46ee)
+    src/prunner/test.fs (05f867efe618ed140b610c6b7093f073c7de46ee)
+    src/prunner/types.fs (05f867efe618ed140b610c6b7093f073c7de46ee)

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../paket-files/lefthandedgoat/prunner/src/prunner/types.fs" />
+    <Compile Include="../../paket-files/lefthandedgoat/prunner/src/prunner/printer.fs" />
+    <Compile Include="../../paket-files/lefthandedgoat/prunner/src/prunner/test.fs" />
+    <Compile Include="../../paket-files/lefthandedgoat/prunner/src/prunner/actors.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
